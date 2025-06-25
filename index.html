@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo JDM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Catálogo JDM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Modelos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="catalog">
+        <div class="car-card" onclick="mostrarDetalhes('car1')">
+            <img src="https://via.placeholder.com/300x200?text=Carro+1" alt="Carro 1">
+            <h2>Carro 1</h2>
+            <p>Preço: R$ 50.000</p>
+        </div>
+        <div class="car-card" onclick="mostrarDetalhes('car2')">
+            <img src="https://via.placeholder.com/300x200?text=Carro+2" alt="Carro 2">
+            <h2>Carro 2</h2>
+            <p>Preço: R$ 60.000</p>
+        </div>
+        <div class="car-card" onclick="mostrarDetalhes('car3')">
+            <img src="https://via.placeholder.com/300x200?text=Carro+3" alt="Carro 3">
+            <h2>Carro 3</h2>
+            <p>Preço: R$ 70.000</p>
+        </div>
+    </section>
+
+    <div id="detalhes" class="detalhes">
+        <span class="fechar" onclick="fecharDetalhes()">X</span>
+        <h2 id="detalhes-titulo"></h2>
+        <p id="detalhes-descricao"></p>
+        <p id="detalhes-preco"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Catálogo JDM - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
