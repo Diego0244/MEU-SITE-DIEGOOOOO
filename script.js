@@ -7,17 +7,17 @@ function mostrarDetalhes(carro) {
     // Definindo os dados dos carros
     const carros = {
         car1: {
-            nome: "Carro 1",
+            nome: "Nissan Skyline R34 Vspac",
             descricao: "um carro lendário que conquistou os corações e a imaginação de entusiastas de automóveis em todo o mundo. Sua tecnologia avançada, motor potente e design elegante o tornam um ícone da engenharia de desempenho japonesa.",
-            preco: "R$ 50.000",
+            preco: "R$ 250.000",
         },
         car2: {
-            nome: "Carro 2",
+            nome: "Nissan Silvia S15 Spec",
             descricao: "Carro clássico, ideal para colecionadores, e pra quem ama ele por conta do filme velozes e furiosos.",
-            preco: "R$ 60.000",
+            preco: "R$ 120.000",
         },
         car3: {
-            nome: "Carro 3",
+            nome: "Mitsubishi Lancer Evolution IX MR",
             descricao: "Modelo moderno com tecnologia de ponta. e famosa cadeira eletrica por causa da adrenalina",
             preco: "R$ 70.000",
         },
